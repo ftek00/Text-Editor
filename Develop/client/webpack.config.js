@@ -38,7 +38,7 @@ module.exports = () => {
             sizes: [96, 128, 192, 256, 384, 512],
           },
         ],
-        // TODO: Add CSS loaders and babel to webpack.
+
         orientation: "portrait",
         display: "standalone",
         background_color: "#7eb4e2",
@@ -46,7 +46,7 @@ module.exports = () => {
         publicPath: ".",
       }),
     ],
-
+    // TODO: Add CSS loaders and babel to webpack.
     module: {
       rules: [
         {

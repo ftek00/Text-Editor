@@ -3,7 +3,15 @@
 ## Description
 
 ```md
+This is a browser-based text editor built as a Progressive Web Application (PWA) with offline capabilities. It uses IndexedDB and the idb package for local data storage, allowing users to access and edit notes or code offline. The app is bundled with Webpack, includes a service worker for asset caching, and offers a seamless, installable experience across devices.
 
+Key features:
+
+Offline functionality with service worker
+Persistent storage via IndexedDB
+Installable web app
+Caching for offline access
+Webpack bundling
 ```
 
 ## User Story
